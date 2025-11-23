@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+    <!--
+    This file contains template modifications for the DDC/Theme addon.
+
+    Each modification is a non-destructive search/replace operation on a template.
+    When you purchase a template or want to modify existing templates, modifications
+    will be added here by Claude.
+
+    Example structure (currently empty, will be populated as needed):
+
+    <modification key="example_modification" template="public:template_name"
+                  modification_key="example_modification" description="Description of what this does"
+                  execution_order="10" enabled="1" action="str_replace">
+        <find><![CDATA[Code to find]]></find>
+        <replace><![CDATA[Replacement code]]></replace>
+    </modification>
+    -->
+</template_modifications>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+    <!--
+    This file contains custom templates created for the DDC/Theme addon.
+
+    Custom templates are wholly new templates (not modifications of existing ones).
+    They can be included in other templates via <xf:include template="template_name" />
+
+    Example structure (currently empty, will be populated as needed):
+
+    <template type="public" title="ddc_custom_template" version_id="1000000" version_string="1.0.0">
+        <![CDATA[
+        Template HTML/XenForo markup goes here
+        ]]>
+    </template>
+    -->
+</templates>
