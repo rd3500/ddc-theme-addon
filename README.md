@@ -4,11 +4,40 @@ XenForo theme addon for DimagrireDaCampioni custom styling and templates.
 
 ## Purpose
 
-This addon contains:
-- Custom template modifications (non-destructive changes to XenForo templates)
+This addon contains **YOUR customizations** on top of:
+- XenForo default templates
+- Purchased/third-party themes
+- Any other base theme
+
+**What's included:**
+- Template modifications (non-destructive changes to any template)
 - Custom template overrides (complete template replacements when needed)
-- Custom styles and style properties
+- Custom templates (wholly new templates)
+- Style property overrides
+- Custom CSS/LESS files
 - Branding and visual customizations
+
+**What's NOT included:**
+- Purchased template/theme code (vendor code, not version controlled)
+- XenForo core templates (maintained by XenForo)
+- Third-party addon templates (maintained by addon authors)
+
+## How It Works with Purchased Templates
+
+When you purchase a XenForo theme (e.g., UI.X, Xentre, Flat Awesome, etc.):
+
+1. **Install purchased theme normally** → Separate addon/style, NOT in git
+2. **Create modifications via DDC/Theme** → Your customizations, IN git
+3. **Template modifications target purchased templates** → Applied on top
+4. **Updates work seamlessly** → Vendor updates, your mods re-apply
+
+**Example:**
+- Purchased: ThemeHouse Xentre (in `src/addons/ThemeHouse/Xentre/`)
+- Customizations: DDC/Theme (in `src/addons/DDC/Theme/`)
+- Modification targets: `public:th_xentre_header`, `public:th_xentre_sidebar`, etc.
+- Version control: Only DDC/Theme (your changes)
+
+This keeps vendor code separate from your customizations and makes both update-safe.
 
 ## Development Workflow
 
